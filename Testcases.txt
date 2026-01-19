@@ -1,0 +1,136 @@
+TESTCASES :
+
+
+Test Case 1: Sales Dataset Loading
+
+Input: sales_data.csv
+Expected Outcome: Dataset loads successfully into pandas DataFrame
+Result: Passed
+
+Test Case 2: Customer Dataset Loading
+
+Input: customer_churn.csv
+Expected Outcome: Customer dataset loads successfully into pandas DataFrame
+Result: Passed
+
+Test Case 3: Dataset Structure Validation
+
+Input: Loaded datasets
+Expected Outcome:
+
+Correct number of rows and columns displayed
+
+Data types shown using info()
+Result: Passed
+
+Test Case 4: Missing Values Handling
+
+Input: Datasets with missing values
+Expected Outcome:
+
+Numeric missing values filled with 0
+
+Text missing values filled with "Unknown"
+Result: Passed
+
+Test Case 5: Duplicate Records Removal
+
+Input: Datasets containing duplicate rows
+Expected Outcome: Duplicate records removed using drop_duplicates()
+Result: Passed
+
+Test Case 6: Date Conversion
+
+Input: Date column in sales dataset
+Expected Outcome:
+
+Column successfully converted to datetime format
+
+Year, Month, Day extracted correctly
+Result: Passed
+
+Test Case 7: Dataset Merge Operation
+
+Input: Sales and customer datasets
+Expected Outcome:
+
+Datasets merged correctly using customer ID
+
+No data loss during merge
+Result: Passed
+
+Test Case 8: Total Revenue Calculation
+
+Input: Total_Sales column
+Expected Outcome: Total revenue calculated correctly using sum()
+Result: Passed
+
+Test Case 9: Top Customers Identification
+
+Input: Grouped customer sales data
+Expected Outcome:
+
+Customers ranked correctly by total purchase value
+
+Top 5 customers identified accurately
+Result: Passed
+
+Test Case 10: Multiple Condition Filtering
+
+Input: Filter conditions (sales > threshold AND selected regions)
+Expected Outcome: Correct subset of high-value customers returned
+Result: Passed
+
+Test Case 11: Pivot Table Creation
+
+Input: Merged dataset
+Expected Outcome:
+
+Pivot table created summarizing sales by region and product
+Result: Passed
+
+Test Case 12: Monthly Sales Aggregation
+
+Input: Group by month
+Expected Outcome: Monthly sales totals calculated correctly
+Result: Passed
+
+Test Case 13: Visualization – Monthly Sales Trend
+
+Input: Monthly aggregated sales data
+Expected Outcome:
+
+Line chart generated
+
+Chart saved in visualizations/ folder
+Result: Passed
+
+Test Case 14: Visualization – Top Customers
+
+Input: Top customer revenue data
+Expected Outcome:
+
+Bar chart generated
+
+Chart saved successfully
+Result: Passed
+
+Test Case 15: Visualization – Sales by Region
+
+Input: Region-wise sales data
+Expected Outcome:
+
+Bar chart generated
+
+Image saved correctly
+Result: Passed
+
+Test Case 16: Full Notebook Execution
+
+Input: Run all cells from start to end
+Expected Outcome:
+
+No runtime errors
+
+All outputs and charts generated successfully
+Result: Passed
