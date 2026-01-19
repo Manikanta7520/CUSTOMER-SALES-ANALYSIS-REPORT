@@ -1,0 +1,6 @@
+REQUIREMENTS :
+
+Python>=3.18
+pandas
+matplotlib
+notebook
